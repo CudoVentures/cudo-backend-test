@@ -19,7 +19,7 @@ There is no time limit for this test, but please don't feel the need to spend mo
 ## Tasks
 
 - Implement assignment using **Node.js**
-- The output should be a file that can be run as a kubernetes deployment in a cloud platform.
+- The output should be a file that can be run as a kubernetes deployment in a cloud platform. Providing a deployment specification is optional, this is just the context in which the code will run.
 - Iterate over entries in the database, using an appropriate API or library to broadcast transactions. Update the entries in the database accordingly based on the outcome of the API requests.
 - Consider transactional boundaries - it is very important that we don't accidentally process a withdrawal twice.
 - Provide tests for the deployment. Ideally, use a library which allows you to mock responses from the ethereum daemon/provider, so we can get as much test coverage as possible.
