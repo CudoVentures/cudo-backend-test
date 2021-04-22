@@ -1,0 +1,11 @@
+{
+  "name": "cudo-backend-test",
+  "version": "1.0.0",
+  "description": "Back-end test for Cudo Ventures",
+  "main": "index.js",
+  "author": "Joe White <joe.white@cudoventures.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
