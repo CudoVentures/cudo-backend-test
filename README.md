@@ -4,7 +4,7 @@ Welcome to Cudo Ventures' back-end code test.
 
 ## Objective
 
-Cudo needs a withdrawal processor written to iteratively send users their requested withdrawals.
+Cudo needs a withdrawal processor written to process a queue of users' requested withdrawals.
 
 ## Brief
 
@@ -22,6 +22,7 @@ There is no time limit for this test, but please don't feel the need to spend mo
 - The output should be a file that can be run as a kubernetes deployment in a cloud platform. Providing a deployment specification is optional, this is just the context in which the code will run.
 - Iterate over entries in the database, using an appropriate API or library to broadcast transactions. Update the entries in the database accordingly based on the outcome of the API requests.
 - Consider transactional boundaries - it is very important that we don't accidentally process a withdrawal twice.
+- Use appropriate third-party libraries as neccessary.
 - Provide tests for the deployment. Ideally, use a library which allows you to mock responses from the ethereum daemon/provider, so we can get as much test coverage as possible.
 - Structure the repository as you see fit.
 - Make a note of any key decisions or compromises you feel you needed to make, and write them in a seperate Markdown file so we can get an understanding of your decision-making.
